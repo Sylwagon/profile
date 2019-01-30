@@ -1,0 +1,172 @@
+
+body {
+    font-family: 'Asap', sans-serif;
+    background-color: #F9FCFF;
+    font-weight: 300;
+}
+
+h1 {
+  color: #1E3954;
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 600;
+  color: #507DBC;
+}
+
+h3 {
+  color: #79B2EA;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  /*display: list-item;*/
+  margin: 5px;
+}
+
+p {
+  color: #79B2EA;
+}
+
+a, i {
+  text-decoration: none;
+  text-decoration-color: #507DBC;
+  color: #507DBC;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+img {
+  border-radius: 2px;
+}
+
+.container {
+    width: 900px;
+    margin: 20px auto;
+  }
+
+.card {
+  width: 700px;
+  background-color: white;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px 0px rgb(225,225,225);
+  padding: 20px 50px;
+}
+.width-movie-pic {
+width: 200px;
+}
+
+.hidden-smartphone {
+  visibility: visible;
+}
+.display-smartphone {
+  visibility: hidden;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 20px auto;
+  }
+  .card {
+  width: 450px;
+  background-color: white;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px 0px rgb(235,235,235);
+  padding: 20px 50px;
+  }
+  .width-movie-pic {
+  width: 200px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 20px auto;
+  }
+    .card {
+  width: 400px;
+  background-color: white;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px 0px rgb(225,225,225);
+  padding: 20px 50px;
+}
+  .width-movie-pic {
+  width: 150px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 20px auto;
+  }
+  .card {
+  width: 200px;
+  background-color: white;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px 0px rgb(225,225,225);
+  padding: 20px 50px;
+}
+
+.width-movie-pic {
+  width: 150px;
+  }
+
+.class-descr-td {
+  margin: 50px auto;
+  padding: 10px;
+  text-align: justify;
+}
+
+.hidden-smartphone {
+  visibility: hidden;
+}
+.display-smartphone {
+  visibility: visible;
+}
+
+}
+
+.class-descr-td {
+  margin: 5px auto;
+  padding: 5px;
+  text-align: justify;
+}
+
+.rounded-picture {
+  border-radius: 50%;
+}
+
+.width-120 {
+  width: 120px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+#link-website {
+  font-weight: 900;
+  font-size: 24px;
+}
