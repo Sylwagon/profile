@@ -51,6 +51,12 @@ ul, li {
 .transparent {
   opacity: 0.2;
 }
+
+.transparent:hover {
+  opacity: 1;
+}
+
+
 .container {
     width: 900px;
     margin: 20px auto;
