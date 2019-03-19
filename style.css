@@ -76,10 +76,10 @@ width: 200px;
 }
 
 .hidden-smartphone {
-  visibility: visible;
+  display: block;
 }
 .display-smartphone {
-  visibility: hidden;
+  display: none;
 }
 
 
@@ -148,10 +148,10 @@ width: 200px;
 }
 
 .hidden-smartphone {
-  visibility: hidden;
+  display: none;
 }
 .display-smartphone {
-  visibility: visible;
+  display: block;
 }
 
 }
