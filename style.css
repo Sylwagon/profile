@@ -143,7 +143,7 @@ width: 200px;
 
 .class-descr-td {
   margin: 50px auto;
-  padding: 10px;
+  padding: 30px;
   text-align: justify;
 }
 
@@ -159,6 +159,7 @@ width: 200px;
 .class-descr-td {
   margin: 5px auto;
   padding: 5px;
+  padding-left: 30px;
   text-align: justify;
 }
 
